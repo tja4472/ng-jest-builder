@@ -131,8 +131,7 @@ Remove `"types"` and `test.ts`.
 {
   "extends": "./tsconfig.json",
   "compilerOptions": {
-    "outDir": "./out-tsc/spec",
-    "types": ["node"]
+    "outDir": "./out-tsc/spec"
   },
   "files": ["src/polyfills.ts"],
   "include": ["src/**/*.spec.ts", "src/**/*.d.ts"]
