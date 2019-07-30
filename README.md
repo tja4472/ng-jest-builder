@@ -162,8 +162,6 @@ Add `"types": ["jest"],`.
 }
 ```
 
-? "emitDecoratorMetadata": true,
-
 ### 5.5 Edit angular.json
 
 ```json
@@ -239,6 +237,8 @@ module.exports = {
 
 - https://github.com/prettier/prettier
 - https://github.com/meltedspark/angular-builders/tree/master/packages/jest
+- https://github.com/typicode/husky
+- https://github.com/okonet/lint-staged
 
 ## VS Code Extensions
 
