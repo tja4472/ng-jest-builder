@@ -95,9 +95,6 @@ npm install
     "name": "Launch Chrome",
     "url": "http://localhost:4200",
     "webRoot": "${workspaceFolder}",
-    "sourceMapPathOverrides": {
-      "*": "${webRoot}/*"
-    },
 
     // Set port to avoid 'Cannot connect to runtime process, timeout after 10000 ms' error
     "port": 4000
