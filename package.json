@@ -1,6 +1,10 @@
 {
   "name": "ng-jest-builder",
   "version": "0.0.0",
+  "repository": { 
+    "type": "git",
+    "url": "https://github.com/tja4472/ng-jest-builder"
+  },
   "scripts": {
     "ng": "ng",
     "prettier": "prettier --write \"**/*.{js,json,css,scss,less,md,ts,html,component.html}\"",
