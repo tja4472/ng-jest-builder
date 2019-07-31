@@ -117,7 +117,7 @@ rm ./src/test.ts
 ### 5.2 Install Jest Builder
 
 ```sh
-npm install --save-dev --save-exact jest@24.8.0 @types/jest@24.0.15 @angular-builders/jest@8.0.4
+npm install --save-dev --save-exact jest@24.8.0 @types/jest@24.0.16 @angular-builders/jest@8.0.4
 ```
 
 ### 5.3 Edit tsconfig.spec.json
