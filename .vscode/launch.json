@@ -5,17 +5,6 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "type": "chrome",
-      "request": "launch",
-      "name": "Launch Chrome",
-      "url": "http://localhost:4200",
-      "webRoot": "${workspaceFolder}",
-
-      // Set port to avoid 'Cannot connect to runtime process, timeout after 10000 ms' error
-      "port": 4000
-      // "trace": "verbose",
-    },
-    {
       "name": "Debug Jest Tests",
       "type": "node",
       "request": "launch",
@@ -32,11 +21,11 @@
       "port": 9229
     },
     {
+      "name": "vscode-jest-tests",
       "type": "node",
       "request": "launch",
-      "name": "vscode-jest-tests",
       "program": "${workspaceFolder}/node_modules/@angular/cli/bin/ng",
-      "args": ["test", "ng-jest-builder", "--runInBand", "--testPathPattern"],
+      "args": ["test", "--runInBand", "--testPathPattern"],
       "console": "integratedTerminal",
       "internalConsoleOptions": "neverOpen"
     }

@@ -1,3 +1,4 @@
 {
-  "jest.pathToJest": "ng test ng-jest-builder"
+    "jest.pathToJest": "ng test",
+    "jest.enableInlineErrorMessages": true
 }
