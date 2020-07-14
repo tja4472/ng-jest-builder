@@ -1,4 +1,5 @@
 {
-    "jest.pathToJest": "ng test",
-    "jest.enableInlineErrorMessages": true
+  "jest.pathToJest": "npm test --",
+  "jest.autoEnable": false,
+  "jest.enableInlineErrorMessages": true
 }
